@@ -1,0 +1,47 @@
+
+name: fluff
+type: theme
+description: Custom theme.
+package: Core
+# version: VERSION
+# core: 8.x
+
+# stylesheets-remove: 
+#   - core/themes/bartik/css/colors.css
+#   - core/themes/stable/css/system/components/align.module.css
+libraries:
+  - bartik/global-styling
+  - fluff/global-css
+  - fluff/global-js
+ckeditor_stylesheets:
+  - css/base/elements.css
+  - css/components/captions.css
+  - css/components/table.css
+  - css/components/text-formatted.css
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+
+# Information added by Drupal.org packaging script on 2019-08-07
+version: '8.7.6'
+core: '8.x'
+# base theme: classy
+project: 'drupal'
+datestamp: 1565206425

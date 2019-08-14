@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Fluff theme.
+
+fluff.settings:
+  type: theme_settings
+  label: 'Fluff settings'
