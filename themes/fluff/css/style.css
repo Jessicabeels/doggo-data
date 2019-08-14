@@ -12,12 +12,29 @@
     color: white;
 }
 
+.header-name:hover {
+    color: lightblue;
+}
+
 #header {
     background-color: rgb(216, 224, 104);
     display: inline-block;
+    width: 100vw;
 }
 
+.doggo-logo {
+    background-image: url('https://png.pngtree.com/svg/20170918/a2ce9aa89e.png');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: lightblue;
+    border-radius: 30px;
+ 
+ }
+ 
 
+/* //////Header///////////////////// */
 .dog-main {
     background-image: url('https://www.sunnyskyz.com/uploads/2013/08/4q1hm-birthday-dogs.jpg');
     height: 600px;
@@ -26,20 +43,29 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 50px;
+    padding: 20px;
 }
 
-.doggo-logo {
-   background-image: url('https://png.pngtree.com/svg/20170918/a2ce9aa89e.png');
-   height: 100px;
-   width: 100px;
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-color: lightblue;
-   border-radius: 30px;
-
+.user {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
 }
+
+.user-title {
+    font-size: 40px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
 
 #main-wrapper {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(17, 17, 17);
+}
+
+.footer {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 50px;
+    color: white;
+    
 }

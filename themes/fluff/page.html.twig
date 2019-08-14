@@ -87,13 +87,16 @@
           <section class="section">
             <a id="main-content" tabindex="-1"></a>
             {{ page.content }}
-            <label title="18007651732">Steve Schnozer</label>
-            <label title="180066432587">Wally Weiner</label>
-            <label title="1800345436">Larry Lab</label>
-            <label title="18006432904">Darren Dashenhund</label>
-            {# <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Hello This Will Have Some Value">Hello...</button> #}
+            <div class="user-title">Meet the top users of mydoggodata.com</div>
+            <label class="user" title="18007651732">Steve Schnozer</label>
+            <label class="user" title="180066432587">Wally Weiner</label>
+            <label class="user" title="1800345436">Larry Lab</label>
+            <label class="user" title="18006432904">Darren Dashenhund</label>
+            
 
              <div class="dog-main"></div>
+
+
           </section>
         </main>
         {% if page.sidebar_first %}
@@ -123,7 +126,7 @@
       </div>
     {% endif %}
     <footer class="site-footer">
-     Footer
+     <div>Copyright 2019 myDoggoData, Inc.</div>
       <div class="layout-container">
         {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
           <div class="site-footer__top clearfix">
